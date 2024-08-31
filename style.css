@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+   
+    margin: 0 auto;
+
+}
+
+
+
+.item__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+
+.item {
+   width: 250px;
+   height: 250px;
+   border: 2px solid black;
+   border-radius: 10px;
+   
+}
+body{
+    
+    position: relative;
+}
+
+.color__box {
+width: 75px;
+height: 330px;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+position: absolute;
+top: 25px;
+left: 25px;
+box-shadow: 5px 5px 5px purple;
+}
+
+
+
+.color__one {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: red;
+    
+}
+
+.color__two {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: yellow;
+    
+}
+
+.color__three {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(0, 110, 255);
+    
+}
+
+.color__four {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    
+}
+
+.color__five {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+.background__box {
+width: 75px;
+height: 330px;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+position: absolute;
+bottom: 25px;
+left: 25px;
+
+box-shadow: 5px 5px 5px purple;
+}
+
+
+
+.background__one {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: red;
+    
+}
+
+.background__two {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: yellow;
+    
+}
+
+.background__three {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(0, 110, 255);
+    
+}
+
+.background__four {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: black;
+    
+}
+
+.background__five {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* body js */
+
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: rgb(0, 110, 255);
+}
+
+.black {
+    background: black;
+}
+
+
+
